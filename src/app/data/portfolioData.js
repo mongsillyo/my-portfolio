@@ -1,32 +1,37 @@
 export const portfolioData = {
   profile: {
-    name: "이수아",
-    imageUrl: "/profile.png", // 없을 시 방패 아이콘 사용
-    tagline: "보안 전문가를 향한 여정",
+    name: "김서희",
+    imageUrl: "", // 없을 시 방패 아이콘 사용
+    tagline: "A Journey Toward Becoming a Cloud Expert",
     subtitle: "실무 중심의 보안 역량과 문제 해결 능력을 갖춘 인재",
     introduction: [
-      "융합보안공학 동아리 활동을 통해 보안의 기초부터 최신 기술까지 배우며 성장하고 있습니다.",
-      "시스템 보안 분야에 큰 매력을 느꼈고, 배운 지식을 적용하여 CTF 문제를 출제하는 경험을 통해 이론을 실체화하는 즐거움을 알게 되었습니다."
+      "융합보안공학 동아리 활동을 통해 보안의 기초부터 최신 기술까지 배우며 성장하고 있습니다."
     ],
     education: {
       university: "성신여자대학교",
       major: "융합보안공학과",
-      status: "재학 중", // 또는 졸업년도
-      gpa: "4.2/4.5" // 선택사항
+      status: "재학 중",
+      gpa:"", // 또는 졸업년도
     },
     experience: [
       {
         title: "학부연구생",
-        organization: "성신여대 SSS 랩",
-        period: "2024.07 - 2025.02",
-        track: "AI 모델 기반 보안 취약점 탐지",
-      }
+        organization: "성신여대 NSSEC Lab",
+        period: "2025.07 ~",
+        track: "클라우드",
+      },
+      {
+        title: "부학생회장",
+        organization: "성신여자대학교 제11대 융합보안공학과 학생회 l1nk",
+        period: "2024.12.24 ~",
+        track: "",
+      },
     ],
     contact: {
-      email: "sooa.lee@example.com",
-      github: "https://github.com/sooa-lee",
-      linkedin: "https://linkedin.com/in/sooa-lee",
-      blog: "https://sooa-sec.tistory.com"
+      email: "20231068@sungshin.ac.kr",
+      github: "https://github.com/mongsillyo",
+      linkedin: "",
+      blog: "https://mongsillyo.tistory.com/"
     }
   },
 
@@ -36,18 +41,16 @@ export const portfolioData = {
       name: "융합보안공학과 학술동아리 융보공",
       university: "성신여자대학교",
       role: "8기 부원",
-      period: "2024.03 - 현재",
+      period: "2025.03 - 현재",
       description: "매주 보안 세미나를 통해 웹해킹, 시스템해킹, 암호학, 네트워크 등 다양한 보안 분야를 학습하고 있습니다.",
       activities: [
         "주간 보안 기술 세미나 참여",
-        "CTF 문제 출제 및 해결",
+        "CTF 문제 풀이",
         "보안 취약점 분석 실습",
-        "동아리 내 지식 공유 및 토론"
+        "동아리 내 지식 공유 및 토론",
+        "매 주 코딩 문제 풀이",
       ],
-      achievements: [
-        "2025 제 2회 융보공 MCP CTF 장려상 수상",
-        "시스템 해킹 분야 CTF 문제 출제"
-      ]
+      
     }
   ],
 
