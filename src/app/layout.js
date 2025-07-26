@@ -4,13 +4,13 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: '이수아 - 보안 포트폴리오',
-  description: '코드로 문제를 해결하는 것을 즐기는 보안 학도 이수아의 포트폴리오입니다.',
-  keywords: ['보안', '사이버보안', 'CTF', '퍼징', '시스템해킹', '포트폴리오'],
-  authors: [{ name: '이수아' }],
+  title: '김서희 - 보안 포트폴리오',
+  description: '보안의 다양한 분야를 즐기고 접하는 김서희입니다.',
+  keywords: ['보안', '사이버보안', '정보보안', '클라우드', '포렌식', 'CTF', '시스템해킹', '포트폴리오'],
+  authors: [{ name: '김서희' }],
   openGraph: {
-    title: '이수아 - 보안 포트폴리오',
-    description: '코드로 문제를 해결하는 것을 즐기는 보안 학도',
+    title: '김서희 - 보안 포트폴리오',
+    description: '보안의 다양한 분야를 즐기고 접하는 김서희입니다.',
     type: 'website',
     locale: 'ko_KR',
   },
